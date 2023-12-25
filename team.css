@@ -9,7 +9,7 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-color: #e4e4e4;
+    
     display: flex;
     /* Responsive behaviour */
     flex-wrap: wrap;
@@ -18,8 +18,13 @@ body {
     padding: 40px 16px;
     overflow-x: hidden;
 }
+.primary-header {
+ 
+    margin-bottom: 5rem;
+}
 
 .card {
+  
     position: relative;
     width: 300px;
     background: rgba(255, 255, 255, 0.25);
